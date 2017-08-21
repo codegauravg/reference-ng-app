@@ -1,0 +1,30 @@
+<div class="row">
+  <div class="col-xs-6">
+    <div style="height:50px;">
+        <br>
+    </div>
+  </div>
+</div>
+<br>
+<div class="panel">
+  <div style="height: 150px; overflow-y: scroll; ">
+    <table class="table table-bordered table-condensed table-hover" style="table-layout:fixed;">
+      <thead>
+        <tr>
+          <th>Spliced Items</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let items of recievedItem">
+          <td style="width: 400px; word-wrap:break-word;">{{items}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-6">
+    <label class="label label-primary">Count: &nbsp;&nbsp;{{countSpliced}} </label>
+  </div>
+</div>
+

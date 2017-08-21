@@ -1,0 +1,33 @@
+<div class="table-responsive">
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+        <tr>
+          <th class="default">
+            Id
+            <button class="btn btn-xs btn-warning" style="float:right;" (click)="sortByID();">A</button>
+            &nbsp;
+            <button class="btn btn-xs btn-warning" style="float:right;" (click)="sortByIdDesc();">D</button>
+          </th>
+          <th class="default">
+            Name
+            <button class="btn btn-xs btn-warning" style="float:right;" (click)="sortByName();">A</button>
+            &nbsp;
+            <button class="btn btn-xs btn-warning" style="float:right;" (click)="sortByNameDesc();">D</button>
+          </th>
+          <th class="default">
+            Country
+            <button class="btn btn-xs btn-warning" style="float:right;" (click)="sortByCountry();">A</button>
+            &nbsp;
+            <button class="btn btn-xs btn-warning" style="float:right;" (click)="sortByCountryDesc();">D</button>
+          </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let emp of mockdata;">
+          <td>{{emp.Id}}</td>
+          <td>{{emp.Name}}</td>
+          <td>{{emp.Country}}</td>
+        </tr>
+    </tbody> 
+  </table>
+</div>

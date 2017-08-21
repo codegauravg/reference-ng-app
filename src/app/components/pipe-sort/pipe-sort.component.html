@@ -1,0 +1,18 @@
+<div class="table-responsive">
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+        <tr>
+          <th class="default">Id</th>
+          <th class="default">Name</th>
+          <th class="default">Country</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let emp of mockdata | ascSortBy: 'Id' ">
+          <td>{{emp.Id}}</td>
+          <td>{{emp.Name}}</td>
+          <td>{{emp.Country}}</td> 
+        </tr>
+    </tbody> 
+  </table>
+</div>

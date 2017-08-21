@@ -1,0 +1,16 @@
+<div style=" height: 150px; overflow-y: scroll;">
+  <table class="table table-bordered table-condensed table-hover" style="table-layout:fixed;">
+    <thead>
+      <tr>
+        <th>Pushed Items</th>
+        <th style="width: 40px;">DEL</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of list; let i = index;">
+        <td style="width: 400px; word-wrap:break-word;" (click)="onSelect(item)">{{item}}</td>
+        <td style="width: 40px;"><button class="btn btn-xs btn-danger" (click)="popItem(i)">X</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
