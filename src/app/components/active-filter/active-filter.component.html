@@ -1,3 +1,30 @@
-<p>
-  active-filter works!
-</p>
+<br>
+<input type="text" id="filterInput" placeholder="Type to Search" (keyup)="onKey($event)"><span>&nbsp;{{values}}</span>
+<hr>
+<div class="table-responsive" style="height:150px">
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+        <tr>
+          <th class="default">
+            Id
+            <button id="idBtn" class="btn btn-xs btn-warning" style="float:right;" (click)="toggleSortByID()">#</button>
+          </th>
+          <th class="default">
+            Name
+            <button id="nameBtn" class="btn btn-xs btn-warning" style="float:right;" (click)="toggleSortByName()">#</button>
+          </th>
+          <th class="default">
+            Country
+            <button id="countryBtn" class="btn btn-xs btn-warning" style="float:right;" (click)="toggleSortByCountry()">#</button>
+          </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let emp of mockdata | actFilter: values: 'Id': 'Name': 'Country' | ascSortBy: 'Id'">
+          <td>{{emp.Id}}</td>
+          <td>{{emp.Name}}</td>
+          <td>{{emp.Country}}</td> 
+        </tr>
+    </tbody> 
+  </table>
+</div>
