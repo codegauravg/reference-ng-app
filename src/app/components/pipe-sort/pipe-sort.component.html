@@ -1,3 +1,6 @@
+<br>
+<label class="label label-primary">JSON Populated Data</label>
+<br><hr>
 <div class="table-responsive">
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -8,7 +11,7 @@
         </tr>
     </thead>
     <tbody>
-        <tr *ngFor="let emp of mockdata | ascSortBy: 'Id' ">
+        <tr *ngFor="let emp of mockdata">
           <td>{{emp.Id}}</td>
           <td>{{emp.Name}}</td>
           <td>{{emp.Country}}</td> 

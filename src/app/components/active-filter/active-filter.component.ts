@@ -52,7 +52,7 @@ export class ActiveFilterComponent implements OnInit {
   } 
 
   toggleSortByID(toggleId) {
-    debugger;
+    
     if (this.toggleId == false) {
       this.sortByIdDesc();
       this.toggleId = true;
@@ -64,7 +64,7 @@ export class ActiveFilterComponent implements OnInit {
   }
 
   toggleSortByName(toggleName) {
-    debugger;
+
     if (this.toggleName == false) {
       this.sortByName();
       this.toggleName = true;
@@ -76,7 +76,7 @@ export class ActiveFilterComponent implements OnInit {
   }
 
   toggleSortByCountry(toggleCtr) {
-    debugger;
+    
     if (this.toggleCountry == false) {
       this.sortByCountry();
       this.toggleCountry = true;

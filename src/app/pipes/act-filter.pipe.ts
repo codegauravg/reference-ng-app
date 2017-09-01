@@ -16,7 +16,6 @@ export class ActFilterPipe implements PipeTransform {
     //   if(  item[propName1] == filterString
     //     || item[propName2] == filterString
     //     || item[propName3] == filterString){
-    //       debugger
     //     resultArray.push(item);
     //   }
     // }
@@ -26,7 +25,6 @@ export class ActFilterPipe implements PipeTransform {
       return data;
     }
     
-    console.log(filterString);
     const resultArray = [];
     var item, lID, lName, lCountry, capsFilter;
     for(let i=0; i < data.length; i++){

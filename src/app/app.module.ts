@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 import { ChildCommService } from './components/child-comm.service';
+import { MyCallService } from './services/my-call.service';
 
 import { AppComponent } from './app.component';
 import { DetailsComponent } from './components/details/details.component';
@@ -16,6 +17,7 @@ import { PipeSortComponent } from './components/pipe-sort/pipe-sort.component';
 import { AscSortPipe } from './pipes/asc-sort.pipe';
 import { ActiveFilterComponent } from './components/active-filter/active-filter.component';
 import { ActFilterPipe } from './pipes/act-filter.pipe';
+import { MyComponentComponent } from './components/my-component/my-component.component';
 
 
 @NgModule({
@@ -27,7 +29,8 @@ import { ActFilterPipe } from './pipes/act-filter.pipe';
     PipeSortComponent,
     AscSortPipe,
     ActiveFilterComponent,
-    ActFilterPipe
+    ActFilterPipe,
+    MyComponentComponent
   ],
   imports: [
     TabsModule.forRoot(),
@@ -35,7 +38,7 @@ import { ActFilterPipe } from './pipes/act-filter.pipe';
     FormsModule,
     HttpClientModule
   ],
-  providers: [ChildCommService],
+  providers: [ChildCommService, MyCallService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
