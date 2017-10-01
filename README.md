@@ -1,8 +1,11 @@
 [![Reference](https://img.shields.io/badge/Purpose-Reference-blue.svg)]()
 [![Open Source](https://img.shields.io/badge/Open-Source-orange.svg)]()
 [![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=social&label=Fork)](https://github.com/codegauravg/reference-ng-app)
-[![GitHub followers](https://img.shields.io/github/followers/espadrine.svg?style=social&label=Follow)]([![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=social&label=Fork)](https://github.com/codegauravg/reference-ng-app))
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)]([![GitHub followers](https://img.shields.io/github/followers/espadrine.svg?style=social&label=Follow)]([![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=social&label=Fork)](https://github.com/codegauravg/reference-ng-app)))
+[![GitHub followers](https://img.shields.io/github/followers/espadrine.svg?style=social&label=Follow)]()
+[![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=social&label=Fork)](https://github.com/codegauravg/reference-ng-app)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
+[![GitHub followers](https://img.shields.io/github/followers/espadrine.svg?style=social&label=Follow)]()
+[![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=social&label=Fork)](https://github.com/codegauravg/reference-ng-app)
 [![Coverage Status](https://coveralls.io/repos/github/codegauravg/reference-ng-app/badge.svg?branch=master)](https://coveralls.io/github/codegauravg/reference-ng-app?branch=master)
 
 # Angular 4 Reference Application
