@@ -1,9 +1,9 @@
 [![Reference](https://img.shields.io/badge/Purpose-Reference-blue.svg)]()
 [![Open Source](https://img.shields.io/badge/Open-Source-orange.svg)](https://opensource.org/)
-[![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=social&label=Fork)](https://github.com/codegauravg/reference-ng-app)
-[![GitHub followers](https://img.shields.io/github/followers/espadrine.svg?style=social&label=Follow)]()
 [![license](https://img.shields.io/badge/license-The%20Unlicense-yellow.svg)](https://github.com/codegauravg/reference-ng-app/blob/master/LICENSE)
 [![Coverage Status](https://coveralls.io/repos/github/codegauravg/reference-ng-app/badge.svg?branch=master)](https://coveralls.io/github/codegauravg/reference-ng-app?branch=master)
+[![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=social&label=Fork)](https://github.com/codegauravg/reference-ng-app)
+[![GitHub followers](https://img.shields.io/github/followers/espadrine.svg?style=social&label=Follow)]()
 
 # Angular 4 Reference Application
 
@@ -11,12 +11,13 @@ This Project is created for reference purposes of personal or Open Source angula
 
 ## Getting the Project up & running
 
-Install [node.js](https://nodejs.org/en/download/) first of all by going to its official website. (You can click on node.js to redirect to the download page).
-Run `npm install -g @angular/cli` from command prompt to install [Angular CLI](https://angular.io/guide/quickstart).
-Run `git clone https://github.com/codegauravg/reference-ng-app` to git clone the repository to your preferred directory or Fork it and the Clone it using Github Desktop application.
-After you are done with it, navigate to your directory where project is cloned and run `npm install`. This will install the dependencies used in this project and is listed in package.json file like Bootstrap 3.7.
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-Your Angular app is now up and running. Have Fun !!! ;)
+1. Install [node.js](https://nodejs.org/en/download/) first of all by going to its official website. (You can click on node.js to redirect to the download page).
+2. Run `npm install -g @angular/cli` from command prompt to install [Angular CLI](https://angular.io/guide/quickstart).
+3. Run `git clone https://github.com/codegauravg/reference-ng-app` to git clone the repository to your preferred directory or Fork it and the Clone it using Github Desktop application.
+4. After you are done with it, navigate to your directory where project is cloned and run `npm install`. This will install the dependencies used in this project and is listed in package.json file like Bootstrap 3.7.
+5. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+> Your Angular app is now up and running. Have Fun !!! ;)
 
 ## Code scaffolding
 
